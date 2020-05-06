@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Computer Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="quiz-container">
+      <div class="text-center">
+        <div id="loader"></div>
+      </div>
+      <div class="hidden" id="quiz">
+        <div class="quiz">
+          <div class="quiz-progress">
+            <h2>Question: <span id="question-number">1/10</span></h2>
+            <div id="progressBar">
+              <div id="progress-bar-full" style="width: 10%;"></div>
+            </div>
+          </div>
+          <div class="quiz-score">
+            <h2>Score</h2>
+            <span id="score">0</span>
+          </div>
+        </div>
+        <h2 id="question">
+          What was the nickname given to the Hughes H-4 Hercules, a heavy
+          transport flying boat which achieved flight in 1947?
+        </h2>
+        <div class="choice-container">
+          <p class="choice-prefix">A</p>
+          <p class="choice-text" data-id="0">Noahs Ark</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">B</p>
+          <p class="choice-text" data-id="1">Noahs Ark</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">C</p>
+          <p class="choice-text" data-id="2">Noahs Ark</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">D</p>
+          <p class="choice-text" data-id="3">Noahs Ark</p>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
